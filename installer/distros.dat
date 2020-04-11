@@ -8563,7 +8563,7 @@ packages=ghostscript-x
 packages=libssl-dev
 
 [debian:10.3:libjpeg]
-packages=libjpeg62-turbo
+packages=libjpeg62-dev
 
 [debian:10.3:libnetsnmp-devel]
 packages=libsnmp-dev
@@ -8572,10 +8572,10 @@ packages=libsnmp-dev
 packages=libc6
 
 [debian:10.3:libtool]
-packages=libtool
+packages=libtool,libtool-bin
 
 [debian:10.3:libusb]
-packages=libusb-dev
+packages=libusb-1.0-0,libusb-1.0-0-dev
 
 [debian:10.3:make]
 packages=make
